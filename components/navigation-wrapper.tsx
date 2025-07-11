@@ -18,7 +18,7 @@ export default function NavigationWrapper() {
       case "home":
         return <HomeContent />
       case "menu":
-        return <MenuContent onNavigate={handleNavigate} />
+        return <MenuContent />
       case "fuel-tracker":
         return <FuelTracker />
       case "expenses":

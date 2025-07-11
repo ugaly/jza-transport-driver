@@ -13,7 +13,7 @@ import { User, Phone, Mail, MapPin, Calendar, Truck, Edit, Camera, Star, Award, 
 export default function ProfileContent() {
   const [isEditing, setIsEditing] = useState(false)
   const [profileData, setProfileData] = useState({
-    name: "John Mwalimu",
+    name: "Driver Name",
     phone: "+255 123 456 789",
     email: "john.mwalimu@jzatech.com",
     location: "Dar es Salaam, Tanzania",

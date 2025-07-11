@@ -16,6 +16,8 @@ export interface Transaction {
   transaction_type: "income" | "expense"
   amount: string
   transaction_date: string
+    created_by_name?: string // Add this line if your API returns this field
+
   files: TransactionFile[]
   created_by: number
   created_at: string
